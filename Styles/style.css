@@ -52,7 +52,6 @@ color: rgb(13, 19, 33);
     margin-bottom: 44px;
 }
 .first-main-section{
-    background-color: red;
     border-radius: 16px;
     width: 1140px;
     height: 1395px;
@@ -84,13 +83,13 @@ color: rgb(13, 19, 33);
 .second-division{
     width: 850px;
 height: 240px;
-margin-top: 48px;
+padding: 48px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: brown;
 margin-right: 297px;
 margin-left: 293px;
+margin-top: 48px;
 }
 .third-division{
     margin-right: 98.83px;
@@ -122,13 +121,13 @@ margin-top: 16px;
 .fourth-division{
     width: 850px;
     height: 240px;
-    margin-top: 80px;
+    padding: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: brown;
     margin-right: 297px;
 margin-left: 293px;
+margin-top: 32px;
 }
 .fifth-division{
     margin-left: 98.83px;
@@ -144,4 +143,131 @@ margin-bottom: 16px;
 color: rgba(13, 19, 33, 0.7);
 font-weight: 400;
 font-size: 16px;
+}
+.second-main-section{
+    border-radius: 16px;
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+#text-9{
+    font-weight: 800;
+    font-size: 32px;
+    color: rgb(13, 19, 33,);
+}
+#text-10{
+font-weight: 400;
+font-size: 16px;
+color: rgba(13, 19, 33, 0.7);
+margin-top: 24px;
+}
+.sixth-division{
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.seventh-division{
+    width: 1076px;
+    height: 550px;
+    background-color: rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    background-image: url(/B10A1-Challenge-Begins/assets/Screenshot\ 2024-07-10\ 124112.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.youtube-icon{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+    border: none;
+    background: none;
+    
+}
+.youtube-icon img {
+    width: 100%;
+    height: auto;
+}
+#text-11{
+font-weight: 800;
+font-size: 32px;
+color: rgb(13, 19, 33);
+}
+#text-12{
+font-weight: 400;
+font-size: 16px;
+color: rgba(13, 19, 33, 0.7);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+}
+.division-12{
+    width: 1140px;
+    height: 463px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+.box{
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.box-1{
+    width: 284px;
+    height: 220px;
+    text-align: left;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.box-2{
+width: 284px;
+height: 220px;
+text-align: left;
+background-color: rgba(0, 76, 232, 0.05);
+margin-left: 24px;
+padding: 40px;
+}
+.box-3{
+    width: 284px;
+    height: 220px;
+    text-align: left;
+    background-color: rgba(255, 223, 0, 0.05);
+    margin-left: 24px;
+    padding: 40px;
+}
+#text-13{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-bottom: 8px;
+}
+.footer{
+    width: 1140px;
+height: 314px;
+    background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+#footer-text{
+    margin-top: 117px;
+    margin-left: 150px;
 }
