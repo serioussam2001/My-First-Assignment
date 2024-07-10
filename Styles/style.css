@@ -7,6 +7,13 @@ body{
     margin: 0;
     padding: 0;
 }
+    #body{
+        width: 1440px;
+        height: 5245px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 .first-section{
     width: 1440px;
     height: 652px;
@@ -25,6 +32,8 @@ align-items: center;
 }
 #image-1 {
     margin-top: 26px;
+    width: 173.03px;
+height: 228.9px;
 }
 #text-1{
 margin-top: 32px;
@@ -37,6 +46,8 @@ color: rgb(13, 19, 33);
     margin-top: 24px;
     text-align: center;
     color: rgba(13, 19, 33, 0.7);
+    font-weight: 400;
+    font-size: 16px;
 }
 #button-1{
     margin-top: 32px;
@@ -55,6 +66,7 @@ color: rgb(13, 19, 33);
     border-radius: 16px;
     width: 1140px;
     height: 1395px;
+    padding: 80px 97px 80px 97px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,33 +74,28 @@ color: rgb(13, 19, 33);
     text-align: center;
     margin: 0 auto;
     margin-top: 74px;
+    color: rgba(13, 19, 33, 0.02);
 }
 #text-3{
     color: rgb(13, 19, 33);
     font-weight: 800;
     font-size: 32px;
-    margin-top: 80px;
-    margin-left: 292px;
-    margin-right: 296px;
 }
 #text-4{
     color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     margin-top: 24px;
-    margin-left: 292px;
-    margin-right: 296px;
 }
 .second-division{
-    width: 850px;
-height: 240px;
-padding: 48px;
+    width: 946px;
+height: 336px;
+padding: 48px 48px 48px 48px;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-right: 297px;
-margin-left: 293px;
 margin-top: 48px;
 }
 .third-division{
@@ -99,7 +106,6 @@ margin-top: 48px;
 font-weight: 700;
 font-size: 24px;
 color: rgba(13, 19, 33, 0.7);
-margin-bottom: 16px;
 }
 #text-6{
 color: rgba(13, 19, 33, 0.7);
@@ -111,23 +117,33 @@ margin-top: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.7);
     padding: 12px 20px 12px 20px;
-    width: 171px;
-    height: 47px;
+    width: 150px;
+    height: 48px;
     margin-top: 32px;
     color: rgb(13, 19, 33);
     font-weight: 600;
     font-size: 20px;
 }
+#image-2{
+    width: 259.56px;
+    height: 217.01px;
+    margin-left: 99.77px;
+}
 .fourth-division{
-    width: 850px;
-    height: 240px;
-    padding: 48px;
+    width: 946px;
+    height: 336px;
+    padding: 48px 48px 48px 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 297px;
-margin-left: 293px;
 margin-top: 32px;
+border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+#image-3{
+    width: 223.2px;
+height: 208.85px;
+margin-right: 48.8px;
 }
 .fifth-division{
     margin-left: 98.83px;
@@ -137,15 +153,14 @@ margin-top: 32px;
 color: rgba(13, 19, 33, 0.7);
 font-size: 24px;
 font-weight: 700;
-margin-bottom: 16px;
 }
 #text-8{
 color: rgba(13, 19, 33, 0.7);
 font-weight: 400;
 font-size: 16px;
+margin-top: 16px;
 }
 .second-main-section{
-    border-radius: 16px;
     width: 1140px;
     height: 777px;
     display: flex;
@@ -154,7 +169,7 @@ font-size: 16px;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: 74px;
+    margin-top: 88px;
 }
 #text-9{
     font-weight: 800;
@@ -170,7 +185,7 @@ margin-top: 24px;
 .sixth-division{
     width: 1140px;
     height: 614px;
-    padding: 32px;
+    padding:  32px 32px 32px 32px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -179,26 +194,7 @@ margin-top: 24px;
 .seventh-division{
     width: 1076px;
     height: 550px;
-    background-color: rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    background-image: url(/B10A1-Challenge-Begins/assets/Screenshot\ 2024-07-10\ 124112.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.youtube-icon{
-    width: 50px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    margin: 25%;
-    border: none;
-    background: none;
-    
-}
-.youtube-icon img {
-    width: 100%;
-    height: auto;
 }
 #text-11{
 font-weight: 800;
@@ -210,8 +206,6 @@ font-weight: 400;
 font-size: 16px;
 color: rgba(13, 19, 33, 0.7);
 text-align: center;
-font-size: 16px;
-font-weight: 400;
 margin-top: 24px;
 }
 .division-12{
@@ -224,38 +218,62 @@ align-items: center;
 margin: 0 auto;
 }
 .box{
+    width: 1140px;
+height: 300px;
 display: flex;
 text-align: center;
 justify-content: center;
+margin: 0 auto;
+margin-top: 48px;
 }
 .box-1{
-    width: 284px;
-    height: 220px;
+    width: 364px;
+height: 300px;
     text-align: left;
-    background-color: rgba(255, 76, 30, 0.05);
-    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px 40px 40px 40px;
+    border-radius: 16px;
+
+}
+#html{
+    width: 39.68px;
+height: 45px;
+}
+#learn-more{
+color: rgb(13, 19, 33);
+font-weight: 700;
+font-size: 16px;
 }
 .box-2{
-width: 284px;
-height: 220px;
+width: 364px;
+height: 300px;
 text-align: left;
-background-color: rgba(0, 76, 232, 0.05);
+background: rgba(0, 76, 232, 0.05);
 margin-left: 24px;
-padding: 40px;
+padding: 40px 40px 40px 40px;
+border-radius: 16px;
+margin-right: 24px;
 }
 .box-3{
-    width: 284px;
-    height: 220px;
+    width: 364px;
+    height: 300px;
     text-align: left;
-    background-color: rgba(255, 223, 0, 0.05);
-    margin-left: 24px;
-    padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px 40px 40px 40px;
+    border-radius: 16px;
 }
 #text-13{
     font-size: 24px;
     font-weight: 800;
     color: rgb(13, 19, 33);
-    margin-bottom: 8px;
+    margin-top: 24px;
+}
+#text-14{
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
 }
 .footer{
     width: 1140px;
@@ -264,10 +282,73 @@ height: 314px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-blend-mode: overlay;
     margin: 0 auto;
     margin-top: 41px;
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+padding: 64px 48px 64px 48px;
+text-align: center;
+}
+#text-15{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 32px;
+}
+#text-16{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.form{
+width: 684px;
+height: 58px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+#input{
+    width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+background: rgb(255, 255, 255);
+border-radius: 8px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+align-items: center;
+justify-content: flex-start;
+}
+#submit-2{
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+height: 58px;
+font-weight: 600;
+font-size: 20px;
+color: rgb(13, 19, 33);
+margin-left: 16px;
+}
+.last-section{
+    width: 1440px;
+height: 100px;
+box-sizing: border-box;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+margin-top: 79px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
 }
 #footer-text{
-    margin-top: 117px;
-    margin-left: 150px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 426.99px;
+}
+#link-icon{
+    margin-left: 24px;
 }
